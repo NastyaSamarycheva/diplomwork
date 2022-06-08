@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+html, body {
+  height: 100%;
+  width: 86%;
+  margin: 1% 8% 3% 8%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  background-color: #fff;
+}
+
+#bar {
+font-size: 24px;
+padding: 10px 20px;
+margin-left: -10px;
+float: inherit;
+}
+
+.sidebar {
+max-height: 100%;
+width: 0;
+position: absolute;
+overflow: hidden;
+top: 0;
+left: 0;
+background-color: #f7f5f5;
+overflow-y: scroll;
+transition: 0.5s;
+padding-top: 60px;
+}
+.sidebar ul, input {
+padding: 8px 8px 20px 50px;
+font-size: 24px;
+display: block;
+transition: 0.5s;
+cursor: pointer;
+}
+
+.sidebar h3 {  margin: 50px 0 20px 50px;}
+
+.one {
+  border: none;
+  background-color: #609cf5;
+  height: 4px;
+  width: 100px;
+  margin: -10px 0 0 50px;
+}
+
+ul li {
+  list-style-type: none;
+  font-size: 16px;
+  cursor: pointer;
+  padding-top: 15px;
+}
+
+ul li:hover {
+  color: #609cf5;
+}
+
+input {
+  margin: -10px 0 0 50px;
+  border-radius: 5px;
+  width: 300px;
+  height: 50px;
+  font-size: 14px;
+  padding: 0 0 0 20px;
+}
+
+.two {
+  border: none;
+  background-color: #609cf5;
+  height: 4px;
+  width: 250px;
+  margin: -10px 0 0 50px;
+}
+
+.card-3 img  {
+  width: 350px;
+  height: auto;
+  margin: 20px 50px 10px 50px;
+}
+
+.card-3 p {
+  margin: 20px 50px 10px 50px;
+  color: #858585;
+}
+
+.card-3 button {
+  margin: 20px 50px 10px 50px;
+}
+
+.three {
+  border: none;
+  background-color: silver;
+  height: 1px;
+  margin: 20px 40px;
+}
+
+.four {
+  border: none;
+  background-color: silver;
+  height: 1px;
+  margin: 20px 40px 20px 0;
+}
+
+#side p {margin: 20px 50px 10px 50px;   color: #858585;}
+
+#side i {
+  color: #609cf5;
+  font-size: 24px;
+  float: left;
+  margin: 20px 50px;
+}
+
+#side .adres {
+  display: flex;
+  width: 200px;
+  margin-left: 30px;
+  margin-top: -30px;
+}
+
+#side span, a {
+  color: #858585;
+  font-size: 16px;
+  padding-left: 30px;
+  font-weight: 300;
+}
+
+.foot {
+  color: #858585;
+  font-size: 14px;
+  float: left;
+  margin: 20px 50px 100px 50px;
+}
+
+.sidebar .closebtn {
+position: absolute;
+cursor: pointer;
+top: 0;
+right: 25px;
+font-size: 36px;
+}
+.openbtn {
+font-size: 24px;
+cursor: pointer;
+}
+#main {
+transition: margin-left .5s;
+}
+
+#court {transition: 0.5s;}
+
+header {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+}
+
+hr {
+  border: none;
+  background-color: #609cf5;
+  height: 6px;
+  margin: 20px 0 20px 0;
+}
+
+#img-1 {
+  float: right;
+  width: 700px;
+  height: auto;
+  margin-left: 50px;
+  border-radius: 5px;
+}
+
+.text {
+  padding-top: 100px;
+  font-size: 34px;
+}
+
+.text-one, .text-two {
+  font-size: 14px;
+  margin: 20px 20px 20px 0;
+  padding-bottom: 5px;
+}
+.text-one {
+  text-transform: uppercase;
+}
+
+.btn-1 {
+  border: 2px solid #609cf5;
+  border-radius: 5px;
+  padding: 15px 30px;
+  color: #609cf5;
+  background-color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.btn-1:hover {
+  background-color: #cae3ed;
+}
+
+.light {
+  border: none;
+  background-color: silver;
+  height: 1px;
+}
+
+h3 {
+  margin: 50px 0 20px 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.short{
+  border: none;
+  background-color: #609cf5;
+  height: 3px;
+  width: 350px;
+  margin: 10px 0 20px 0;
+}
+
+#cards {
+  position: relative;
+}
+.card-1 {
+  float: right;
+  width: 45%;
+  overflow: hidden;
+}
+.card-2 {
+  width: 45%; overflow: hidden;
+}
+
+.vertical {
+  border: none;
+  background-color: silver;
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 0;
+}
+img {
+  width: 680px;
+  height: 300px;
+  transform: scale(1);
+  transition: all 500ms ease;
+  border-radius: 5px;
+}
+
+img:hover {transform: scale(1.05);}
+
+h4 {
+  font-weight: bold;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+  padding: 10px 0 10px 0;
+  line-height: 30px;
+}
+
+#five {
+  display: inline;
+}
+.five-1 {
+  margin-left: 20px;
+  float: left;
+  width: 18.5%;
+}
+
+.img-1 {
+  width: 250px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.img-1:hover {box-shadow: 0 0 10px rgba(0,0,0,0.8);}
+
+.short-1 {
+  border: none;
+  background-color: #609cf5;
+  height: 3px;
+  width: 170px;
+  margin: 10px 0 20px 0;
+}
+
+i {
+  color: #609cf5;
+  font-size: 64px;
+  float: left;
+  margin: 20px 50px;
+
+}
+
+.social {
+  margin-bottom: 30px;
+}
+
+h5 {
+  padding-top: 30px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.down {padding-bottom: 50px;
+}
+
+@media only screen and (max-width : 480px) {
+
+  hr {width: 200px}
+  #block {
+    width: 250px;
+    margin: 1% 8% 3% 10%;}
+    #block img {width: 250px;}
+#bar {margin: 1% 8% 3% 10%;}
+header {margin: 1% 8% 3% 10%;}
+
+#block h2 {font-size: 24px; margin-top: 20px}
+
+  .text .text-one .text-two {width: 200px; margin-left: -100px}
+  .short {width: 10px;}
+  #block-2 { float: none; margin-left: 50px}
+
+  .card-1 {float: left; width: 200px; display: inline-grid;}
+  .card-2 {float: left; width: 200px; display: inline-grid;}
+  #cards img {width: 300px; height: auto;}
+  .vertical {display: none}
+  #five .five-1 {
+    display: inline-grid; width: 400px; padding-left: 100px
+  }
+  #five img {width: 200px; height: auto;}
+  .info {width: 100px;}
+
+}
+
+@media only screen and (max-width : 1100px){
+  #img-1 {
+    width: 370px;
+  ;
+}
+  hr {width: 200px}
+
+#main {width: 60%;
+margin-left: -50px;
+padding: 0;}
+#court {width: 60%;
+margin-left: -50px;
+padding: 0;}
+.light {width: 370px}
+#block h2 {font-size: 24px; margin-top: 20px}
+  header {width: 200px}
+  .text .text-one .text-two {width: 370px;}
+  .short {width: 350px;}
+  #block-2 { float: none;}
+  #cards { float: left; width: 370px; }
+  #cards img {width: 200px; height: auto;}
+  .vertical {display: none}
+
+  #five .five-1 {
+    display: inline-block; float: left; width: 150px; margin-left: 0; margin-right: 30px;
+  }
+  #five img {width: 150px; height: 75px;}
+  .info {float: left; width: 350px;}
+
+}
