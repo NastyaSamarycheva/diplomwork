@@ -321,9 +321,9 @@ h5 {
 
 @media only screen and (max-width : 480px) {
 
-  hr {width: 200px}
+  hr {width: auto}
   #block {
-    width: 250px;
+    width: 300px;
     margin: 1% 8% 3% 10%;}
     #block img {width: 250px;}
 #bar {margin: 1% 8% 3% 10%;}
@@ -332,19 +332,18 @@ header {margin: 1% 8% 3% 10%;}
 #block h2 {font-size: 24px; margin-top: 20px}
 
   .text .text-one .text-two {width: 200px; margin-left: -100px}
-  .short {width: 10px;}
+  .short {width: auto;}
   #block-2 { float: none; margin-left: 50px}
 
-  .card-1 {float: left; width: 200px; display: inline-grid;}
-  .card-2 {float: left; width: 200px; display: inline-grid;}
-  #cards img {width: 300px; height: auto;}
+  .card-1 {float: left; width: 300px; display: inline-grid;}
+  .card-2 {float: left; width: 300px; display: inline-grid;}
+  #cards img {width: 400px; height: auto;}
   .vertical {display: none}
   #five .five-1 {
     display: inline-grid; width: 400px; padding-left: 100px
   }
   #five img {width: 200px; height: auto;}
   .info {width: 100px;}
-
 }
 
 @media only screen and (max-width : 1100px){
@@ -354,19 +353,20 @@ header {margin: 1% 8% 3% 10%;}
 }
   hr {width: 200px}
 
-#main {width: 60%;
+#main {width: 20%;
 margin-left: -50px;
 padding: 0;}
 #court {width: 60%;
 margin-left: -50px;
 padding: 0;}
+main {width: 200%;}
 .light {width: 370px}
 #block h2 {font-size: 24px; margin-top: 20px}
   header {width: 200px}
   .text .text-one .text-two {width: 370px;}
   .short {width: 350px;}
   #block-2 { float: none;}
-  #cards { float: left; width: 370px; }
+  #cards { float: left; width: 200%; }
   #cards img {width: 200px; height: auto;}
   .vertical {display: none}
 
